@@ -1,0 +1,16 @@
+[
+  {
+    "login": "11018601",
+    "password": "q12345678",
+    "expected_result": "FAIL"
+  },
+  {
+    "login": "11018625",
+    "password": "q987654321",
+    "expected_result": "PASS"
+  },
+  {
+    "login": "11018618",
+    "expected_result": "error"
+  }
+]
