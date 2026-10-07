@@ -28,8 +28,8 @@ try:
             print(f"Ошибка в данных пользователя!\n"
                   f"Отсутствует обязательное поле: {e}\n")
 
-except FileNotFoundError:
-    print(f"Файл не найден!")
+except FileNotFoundError as e:
+    print(f"Файл не найден!{e}")
 
 except json.JSONDecodeError as e:
     print(f"Невозможно прочитать файл как JSON: {e}")
